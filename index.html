@@ -7,12 +7,12 @@
     </head>
     <body>
         <div class="stopwatch">
-            <h1>00:00:00</h1>
-            <div class="button">
-                <img src="images/stop.png">
-                <img src="images/start.png">
-                <img src="images/reset.png">
-                
+            <h1 id="displayTime">00:00:00</h1>
+            <div class="buttons">
+                <img src="images/stop.png" onclick="watchstop()">
+                <img src="images/start.png" id="startBtn" onclick="watchstart()">
+                <img src="images/reset.png" onclick="watchreset()">
+
             </div>
         </div>
 
